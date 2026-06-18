@@ -52,7 +52,7 @@ function Counter({ to, suffix = "", duration = 2000 }: { to: number; suffix?: st
   }, [seen, to, duration]);
   return <span ref={ref}>{n.toLocaleString()}{suffix}</span>;
 }
-
+newhghj
 function Nav() {
   return (
     <header className="fixed top-0 inset-x-0 z-50">
